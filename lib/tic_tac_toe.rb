@@ -74,7 +74,9 @@ class TicTacToe
       display_board
     else
       puts "Player the move is invalid, please make another move"
-      
+      valid_move?(index)
+      move(index, current_player)
+      display_board
     end
   end
   
