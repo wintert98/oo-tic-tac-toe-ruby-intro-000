@@ -32,10 +32,10 @@ class TicTacToe
   end
   
   def position_taken?(index)
-    if index == "X" || index == "O"
-      return true 
+    if index == " " || index == "" || index == nil
+      return false 
     else
-      return false
+      return true
     end
   end
 end
