@@ -1,7 +1,7 @@
 class TicTacToe
   def initialize
     @board = board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-    @play = play
+    # @play = play
   end
   
     WIN_COMBINATIONS = [
