@@ -73,7 +73,7 @@ class TicTacToe
       move(index, value)
       display_board(@board)
     else
-      puts ""
+      puts "Player the move is invalid, please make another move"
     end
   end
   
