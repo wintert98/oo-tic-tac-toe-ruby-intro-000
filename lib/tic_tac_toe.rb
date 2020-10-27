@@ -132,6 +132,8 @@ def play
   until over?
     turn
   end
+  if winner == "X"
+    return 
 end
 
 end
