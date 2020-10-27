@@ -66,6 +66,7 @@ class TicTacToe
   end
   
   def turn
+    puts ""
     input = gets.strip
     index = input_to_index(input)
   end
