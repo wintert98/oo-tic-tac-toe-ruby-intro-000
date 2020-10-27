@@ -78,7 +78,8 @@ class TicTacToe
     end
   end
   
-  def 
+  def won?
+  end
   
   
 end
