@@ -137,7 +137,7 @@ def play
   elsif winner == "O"
     puts "Congratulations O!"
   else draw?
-    puts 
+    puts "Cat's Game!"
   end
 end
 
