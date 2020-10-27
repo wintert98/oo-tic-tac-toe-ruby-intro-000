@@ -95,6 +95,14 @@ class TicTacToe
 end
 return false
 end
+
+def full?
+  if @board.any? { |index| index == " " || index == "" || index == nil }
+    return false
+  else
+    return true
+  end
+end
   
   
 end
