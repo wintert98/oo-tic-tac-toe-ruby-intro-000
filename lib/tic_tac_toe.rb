@@ -22,7 +22,7 @@ class TicTacToe
     print "-----------"
     print " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
-  def input_to_index(@input)
+  def input_to_index(input)
     @input = gets.strip
     @index = @input.to_i - 1
   end
