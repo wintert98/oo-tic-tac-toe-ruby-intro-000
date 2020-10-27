@@ -133,7 +133,7 @@ def play
     turn
   end
   if winner == "X"
-    return 
+    return "Congratulations X!"
 end
 
 end
