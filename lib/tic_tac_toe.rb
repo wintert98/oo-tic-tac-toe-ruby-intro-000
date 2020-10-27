@@ -135,7 +135,7 @@ def play
   if winner == "X"
     puts "Congratulations X!"
   elsif winner == "O"
-  
+    
   end
 end
 
