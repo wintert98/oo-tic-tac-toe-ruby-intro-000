@@ -104,7 +104,7 @@ def full?
   end
 end
   
-  def draw
+  def draw?
     if full && !won
       return true
     else
