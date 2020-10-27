@@ -1,10 +1,10 @@
 class TicTacToe
   
-  # attr_accessor 
+  
   
   def initialize
     @board = board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-    # @play = play
+    
   end
   
     WIN_COMBINATIONS = [
