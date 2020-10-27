@@ -74,6 +74,7 @@ class TicTacToe
       display_board
     else
       puts "Player the move is invalid, please make another move"
+      
     end
   end
   
