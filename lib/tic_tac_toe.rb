@@ -120,4 +120,10 @@ def over?
   end
 end
 
+def winner
+  if won?
+    return @board[index[0]]
+  else
+    return nil
+  end
 end
